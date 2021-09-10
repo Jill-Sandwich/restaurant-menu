@@ -6,7 +6,7 @@ public class MenuItem {
     private double price;
     private String description;
     private String category;
-    private Boolean isNew = false;
+    private Boolean isNew;
     private Boolean isUpdated = false;
 
     //Constructors
@@ -17,7 +17,7 @@ public class MenuItem {
         this.price = price;
 
         this.category = "Not Categorized";
-        this.isNew = isNew;
+        this.isNew = false;
     }
 
     public MenuItem(String name, double price, String description, String category, boolean isNew){
